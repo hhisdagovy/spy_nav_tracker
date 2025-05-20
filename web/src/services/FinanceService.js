@@ -16,8 +16,6 @@ class FinanceService {
     // Initialize Finnhub client
     this.finnhubClient = new finnhub.DefaultApi();
     
-    // You'll need to sign up for a free API key at finnhub.io
-    // Replace this with your actual API key
     this.finnhubKey = 'd0lumg9r01qpni31glsgd0lumg9r01qpni31glt0';
     // Set up WebSocket for real-time updates
     this.setupWebSocket();
