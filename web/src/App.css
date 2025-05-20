@@ -1,0 +1,72 @@
+/* Custom styles for SPY ETF vs NAV Tracker */
+
+/* Overall app styling */
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Card styling */
+.card {
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Chart container */
+.chart-container {
+  margin: 20px 0;
+}
+
+/* Metrics styling */
+.metrics-container .card {
+  padding: 10px;
+  border-left: 4px solid #007bff;
+}
+
+.metrics-container .display-5 {
+  font-size: 2.5rem;
+}
+
+/* Table styling enhancements */
+.table th {
+  font-weight: 600;
+  background-color: #f8f9fa;
+}
+
+.bg-success-subtle {
+  background-color: rgba(25, 135, 84, 0.1);
+}
+
+.bg-danger-subtle {
+  background-color: rgba(220, 53, 69, 0.1);
+}
+
+/* Sidebar styling */
+.sidebar-container {
+  position: sticky;
+  top: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px 0;
+  border-top: 1px solid #eaeaea;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .metrics-container .display-5 {
+    font-size: 1.8rem;
+  }
+  
+  .sidebar-container {
+    position: relative;
+    top: 0;
+    margin-top: 20px;
+  }
+}
